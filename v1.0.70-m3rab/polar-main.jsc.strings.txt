@@ -1,0 +1,35 @@
+/api/download/authorize
+/api/download/file
+/api/poll
+/api/poll/vote
+/api/report
+/api/request-owned-game
+/api/request-translation
+Can't find end of central directory : is this a zip file ? If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html
+Downloading {0} via secure gateway...
+Gateway authorize request failed (HTTP {0}): {1}
+Gateway authorize request timed out after {0}ms.m0
+Gateway authorize response did not include a signed URL or token.
+Gateway authorize response is not valid JSON: {0}
+Gateway host is not allowed.
+Invalid gateway URL.
+Invalid poll.
+This translation is restricted to a special Discord role.
+Unsupported gateway protocol: {0}
+X-Polar-Client
+You must sign in with Discord and be a member of the server.
+[Install] Gateway authorization failed (
+^steamerrorreporter
+crashreport
+crashreportclient
+crashreporter
+fetchPoll
+gateway
+gatewayStrict
+gatewayTimeoutMs
+gatewayUrl
+pollId
+poll_closed
+submitOwnedGameRequest
+submitPollVote
+submitProblemReport

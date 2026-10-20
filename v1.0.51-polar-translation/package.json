@@ -1,0 +1,8 @@
+{
+  "name": "polar-translation",
+  "productName": "Polar Translation",
+  "version": "1.0.51",
+  "main": "main-loader.cjs",
+  "description": "Polar Translation desktop manager for Arabic game localization patches.",
+  "author": "Polar Translation"
+}

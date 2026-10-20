@@ -1,0 +1,3 @@
+provider: generic
+url: https://polar-download-gateway.mdmrksad1ksa.workers.dev/updates
+updaterCacheDirName: polar-translation-updater

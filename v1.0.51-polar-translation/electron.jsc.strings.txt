@@ -1,0 +1,46 @@
+        bridgeKeys: window.polar ? Object.keys(window.polar).sort() : [],
+        hasBridge: typeof window.polar === "object",
+      try { await window.polar.content.fetchJson("https://example.com/x.json"); out.contentBlocked = "NOT BLOCKED"; } catch (e) { out.contentBlocked = e.message; }
+      try { await window.polar.installer.install("job", { id: 1 }, {}, "C:/"); out.badInput = "NOT REJECTED"; } catch (e) { out.badInput = e.message; }
+      try { const c = await window.polar.content.fetchJson(
+      try { out.authCheck = await window.polar.auth.check(); } catch (e) { out.authCheck = "ERR " + e.message; }
+      try { out.maximized = await window.polar.window.isMaximized(); } catch (e) { out.maximized = "ERR " + e.message; }
+      try { out.updater = (await window.polar.updater.getState()).phase; } catch (e) { out.updater = "ERR " + e.message; }
+      try { out.verify = await window.polar.installer.verifyInstallation("C:/__polar_nope__", ["a.txt"]); } catch (e) { out.verify = "ERR " + e.message; }
+/api/auth/discord/start?port=
+/api/auth/verify
+/api/content
+/api/stats
+<!doctype html><html><head><meta charset="utf-8"><title>Polar Translation</title></head><body style="margin:0;background:#0B0C10;color:#e7e9ee;font-family:Segoe UI,Tahoma,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;text-align:center"><div><h2 style="color:#00D2FF">
+AUTH_GATEWAY_URL
+POLAR_GATEWAY_STRICT
+POLAR_GATEWAY_URL
+POLAR_RELAUNCH_CLEAN_ENV
+POLAR_SMOKE_SHOT
+POLAR_SMOKE_TEST
+Polar Translation
+You must be a member of the Polar Translation Discord server to use the app.
+You're verified. Return to Polar Translation.
+activeAuthServer
+auth:changed
+auth:check
+auth:logout
+auth:start-login
+auth:stats
+authHandlersRegistered
+authenticated
+com.polar.translation
+gatewayStrict
+gatewayUrl
+http://127.0.0.1
+http://localhost:3000
+http://localhost:3001
+https://polar-download-gateway.mdmrksad1ksa.workers.dev
+loadPolarMain
+main/polar-main bundle is missing. Run `npm run build:main`.
+polar-main.cjs
+polar-main.jsc
+polar-session.json
+polarMain
+registerAuthHandlers
+runDiscordLogin
