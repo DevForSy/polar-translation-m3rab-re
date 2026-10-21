@@ -119,12 +119,11 @@ I did **not** fully map every authenticated download live, and I did **not** rec
 
 ## Docs in this repo
 
-- `docs/SENSITIVE_APIS.md` — endpoint list from the first pass  
-- `docs/COMPARISON.md` — 1.0.51 vs 1.0.70  
-- `docs/DEEPER_FINDINGS_2026-10-21.md` — second pass  
-- `docs/RELATED_APPS.md` — PolarSteam / Account Switcher / GameServer Pro  
-- `docs/SENSITIVE_APIS_ADDENDUM.md` — short API notes from the second pass  
-
+- `docs/SENSITIVE_APIS.md` — observed APIs, catalog shape, probes
+- `docs/COMPARISON.md` — 1.0.51 vs 1.0.70
+- `docs/DEEPER_FINDINGS_2026-10-21.md` — second pass
+- `docs/RELATED_APPS.md` — PolarSteam / Account Switcher / GameServer Pro
+- 
 ## Disclaimer
 
 Not affiliated with Polar Translation, M3rab, or related authors.  
