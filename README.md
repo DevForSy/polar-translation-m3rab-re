@@ -119,7 +119,7 @@ I did **not** fully map every authenticated download live, and I did **not** rec
 
 ## Docs in this repo
 
-- `docs/SENSITIVE_APIS.md` — observed APIs, catalog shape, probes
+- `docs/SENSITIVE_APIS.md` — observed APIs, catalog shape, and public probes
 - `docs/COMPARISON.md` — 1.0.51 vs 1.0.70
 - `docs/DEEPER_FINDINGS_2026-10-21.md` — second pass
 - `docs/RELATED_APPS.md` — PolarSteam / Account Switcher / GameServer Pro
